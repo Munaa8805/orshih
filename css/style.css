@@ -86,6 +86,7 @@ button a {
   padding: 2.5rem;
   text-decoration: none;
   text-transform: uppercase;
+  border-radius: 10px;
 }
 button a:hover {
   text-decoration: none;
