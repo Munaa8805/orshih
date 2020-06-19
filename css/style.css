@@ -42,6 +42,24 @@ body {
   width: 30rem;
   border: 3px solid orange;
 }
+@media screen and (max-width: 1200px) {
+  .img1 {
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    height: 30rem;
+    width: 20rem;
+    border: 3px solid orange;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img1 {
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    height: 25rem;
+    width: 15rem;
+    border: 3px solid orange;
+  }
+}
 h1 {
   font-weight: 300;
   font-size: 4rem;
